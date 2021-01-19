@@ -1,0 +1,68 @@
+var charcater={
+	name:"none",
+	money:1000,
+	level:0;
+	rank:"E",
+	exp:{
+		currenExp:0,
+		limitExp:100
+	}
+	status:[],
+	equip:[],
+	skill[],
+	itemsBuff[],
+	bag[]
+}
+charcater.equipped=[
+	{code:"",name:"Iron\-Head\-Armor",classify:'headArmor',rarity:"normal",phaysicalDefense:3,magicDefense:3},//chinh sau
+	{code:"",name:"Iron\-Armor",classify:'Armor',rarity:"normal",phaysicalDefense:3,magicDefense:3},
+	{code:"",name:"Iron\-Leg\-Armor",classify:'legArmor',rarity:"normal",phaysicalDefense:3,magicDefense:3},
+	{code:"",name:"Iron\-Both\-Armor",classify:'bothArmor',rarity:"normal",phaysicalDefense:3,magicDefense:3},
+	{code:"",name:"Iron\-weapon",classify:'headArmor',rarity:"normal",phaysicalDamge:15,speedAttack:0.4},///chua ghi phaysiccalDamge de cong voi rangePhaysicaldange
+]
+charcater.status[
+	{	charcater.level,//in ra
+		rangeHP:100,
+		rangeMP:200,
+		rangePhaysicalDamge:10,
+		rangeMagicDamge:30,
+		speedAttack:0 ,// chinh sau,
+		rangePhaysicalDefense:20,
+		rangePhaysicalDefense:30,
+		rangeBuff:{
+			phaysicalDamgeBuff:0,
+			magicDamgeBuff:0,
+			speedAttackBuff:0,
+			hpBuff:0,
+			mpBuff:0,
+			expBuff:0,//chua dung 
+		},
+		EXP:function(){
+			console.log(charcater.exp.currenExp,"/",charcater.exp.limitExp,"\n");
+		}
+	}
+]
+charcater.bag[
+	{
+		equipped:function(){
+			return charcater.equipped;
+		},
+		equipment:{
+			weapon:{[]},
+			armor:{[]},
+			headArmor:{[]},
+			legArmor:{[]},
+			itemsBuff:{[]}
+			//ham se them vao sau
+		}
+	},
+	{
+		checkBagstatus:function(){
+			console.log(charcater.status);
+		}
+	}
+
+]
+
+
+

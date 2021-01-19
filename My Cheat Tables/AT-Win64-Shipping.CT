@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="31">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"No description"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1460F432730</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"No description"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>14619C31E44</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"No description"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>146281EEA34</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"No description"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1462A489A14</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"No description"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>14637015C8C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"No description"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>14676C30748</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"No description"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>146780C95B8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"No description"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1467C202CE8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"No description"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>146AA041674</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>"No description"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>146D7373E24</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12</ID>
+      <Description>"No description"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>146E57A0E6C</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
